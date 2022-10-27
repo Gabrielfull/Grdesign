@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --rajdhani: 'Rajdhani', sans-serif;
+
+    --Beginer: 'Edu SA Beginner', cursive;
+}
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#close-menu {
+    display: none;
+}
+.cabecalho header {
+    background-color: #540D6E;
+    width: 100%;
+    position: fixed;
+}
+.cabecalhoPQ {
+    display: none;
+}
+.cabecalho asside header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-family:  var(--Beginer);
+}
+.cabecalho asside header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 40px;
+}
+.cabecalho asside header nav ul li a:hover {
+    color: #f59104;
+    transition-duration: 0.2s;
+}
+.cabecalho .img-cabecalho {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.cabecalho .img-cabecalho  img{
+    width: 200px;
+}
+.container #sobre {
+    padding: 240px 366px 150px 366px;
+}
+.container #sobre h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 3em;
+    font-family: var(--rajdhani);
+}
+.container #sobre p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2.5em;
+    color: rgb(117, 114, 114)
+
+}
+#espe {
+    padding-top: 80px;
+    background-color: #F9F9F9;
+}
+#espe h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 3em;
+    font-family: var(--rajdhani);
+}
+#especialidades {
+    display: grid;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-color: #F9F9F9;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 200px 50px 200px ;
+}
+#especialidades div img {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#especialidades div h2 {
+    font-family: var(--rajdhani);
+    padding-bottom: 10px;
+}
+#especialidades div p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: rgb(117, 114, 114);
+}
+#portifolio {
+    font-family: var(--rajdhani);
+    text-align: center;
+    padding: 130px 0px 0px 0px;
+    font-size: 2em;
+    background-image: url(/frontEnd/imagens/grgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    height: 100%;
+}
+#portifolio h2 {
+    padding-bottom: 50px;
+}
+.portifolio-imagens {
+  columns: 4;
+
+}
+.portifolio-imagens img {
+    max-width: 100%;
+}
+#formsession {
+    background-color: #540D6E;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+#formsession h2 {
+    padding-bottom: 30px;
+    color: white;
+    font-size: 2.7em;
+    padding-top: 30px;
+    font-family: var(--Beginer);
+    text-align: center;
+}
+#formsession p {
+    font-family: var(--rajdhani);
+    color: white;
+    font-size: 1.4em;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.formulario {
+    display: grid;
+    gap: 50px;
+}
+.formulario input {
+    padding: 25px;
+    font-size: 1em;
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(27, 25, 25);
+    color: white;
+}
+.formulario input::placeholder {
+    font-size: 1.3em;
+}
+.enviar {
+    margin: auto;
+    width: 170px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.enviar:active {
+    color: purple;
+}
+.logotipo-zap {
+    right: 20px;
+    position: fixed;
+    bottom: 15px;
+}
+.logotipo-zap img{
+    cursor: pointer;
+    width: 60px;
+}
+.insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    gap: 7px;
+    font-family: var(--Beginer);
+}
+.insta p {
+    font-size: 1.4em;
+}
+.insta img {
+    margin-top: 8px;
+    width: 35px;
+    cursor: pointer;
+}
+.error-text {
+    color: red;
+    text-align: center;
+}
+#resultado {
+    padding-top: 50px;
+    font-size: 1.5em;
+}
+#resultado p a {
+    color: green;
+    font-weight: bold;
+    font-family: var(--Beginer);
+    text-decoration: underline;
+}
+#resultado p a:hover {
+    color: red;
+}

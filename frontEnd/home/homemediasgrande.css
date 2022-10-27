@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1000px) and (max-width: 1330px) {
+
+    .cabecalho asside header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+        margin: 25px;
+    }
+}
