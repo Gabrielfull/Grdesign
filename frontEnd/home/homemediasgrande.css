@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1000px) and (max-width: 1330px) {
+@media screen and (min-width: 1250px) and (max-width: 1330px) {
 
     .cabecalho asside header nav ul li a {
         text-decoration: none;
