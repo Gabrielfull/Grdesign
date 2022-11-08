@@ -19,7 +19,7 @@ class ValidaFormulario {
             //this.formulario.submit();
             const resultado = document.getElementById('resultado');
 
-            resultado.innerHTML = '<p>Sua Mensagem foi enviada. <br> Atendimento rápido também pelo WhatsApp: <a href="https://wa.me/qr/XK3OW3WLJ5GBA1">Click Aqui</a></p>';
+            resultado.innerHTML = '<p>Sua Mensagem foi enviada. <br> Atendimento rápido também pelo WhatsApp: <a href="https://wa.me/qr/HCNRRKJUXWMAF1">Click Aqui</a></p>';
         }
     }
 
